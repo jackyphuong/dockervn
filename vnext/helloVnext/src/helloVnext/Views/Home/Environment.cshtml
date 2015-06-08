@@ -1,0 +1,12 @@
+﻿@model System.Collections.IDictionary
+@{
+    ViewBag.Title = "Environment";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<ul>
+    @foreach (var item in Model.Keys)
+    {
+        <li><strong>@item</strong> : @Model[item]</li>
+    }
+</ul>

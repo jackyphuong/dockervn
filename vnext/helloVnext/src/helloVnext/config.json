@@ -1,0 +1,8 @@
+{
+  "Data": {
+    "DefaultConnection": "Server=jackyu21404.cloudapp.net;Database=simplepaas;User ID=root;Password=harveynash@123;"
+  },
+  "AppSettings": {
+    "SiteTitle": "helloVnext"
+  }
+}

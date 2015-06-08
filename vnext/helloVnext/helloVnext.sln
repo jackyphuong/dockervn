@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8659C135-58B3-4CDE-BC44-8D4156F13856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B041E564-E72C-4DEE-B768-9EBE7A7551A6}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "helloVnext", "src\helloVnext\helloVnext.xproj", "{D7A58731-C7EC-4935-9281-4854DD02188F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7A58731-C7EC-4935-9281-4854DD02188F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A58731-C7EC-4935-9281-4854DD02188F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A58731-C7EC-4935-9281-4854DD02188F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A58731-C7EC-4935-9281-4854DD02188F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7A58731-C7EC-4935-9281-4854DD02188F} = {8659C135-58B3-4CDE-BC44-8D4156F13856}
+	EndGlobalSection
+EndGlobal
