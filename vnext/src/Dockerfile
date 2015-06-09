@@ -16,7 +16,10 @@ RUN curl -SLO "http://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-x
 	&& npm cache clear
 		
 COPY ./helloVnext/project.json /src/project.json
-WORKDIR /src
+COPY ./helloVnext/bower.json /src/bower.json
+COPY ./helloVnext/gulpfile.js /src/gulpfile.js
+COPY ./helloVnext/package.json /src/package.json
+WORKDIR /src	
 RUN ["dnu", "restore"]
 
 COPY ./helloVnext /src
