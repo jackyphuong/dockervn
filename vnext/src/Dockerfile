@@ -1,4 +1,4 @@
-FROM jacky/vnext
+FROM microsoft/aspnet
 
 ENV NODE_VERSION 0.10.38
 ENV NPM_VERSION 2.11.1
