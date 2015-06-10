@@ -44,7 +44,7 @@
     "**.vspscc"
   ],
   "scripts": {
-    "postrestore": [ "npm install", "bower install" ],
+    "postrestore": [ "npm install", "bower install --allow-root" ],
     "prepare": [ "gulp copy" ]
   }
 }
