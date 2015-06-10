@@ -10,7 +10,7 @@ namespace helloVnext.Models
 {
     public static class SampleData
     {
-        const string imgUrl = "~/Images/placeholder.png";
+        const string imgUrl = "~/images/placeholder.png";
 
         public static async Task InitializeDatabaseAsync(IServiceProvider serviceProvider, bool createUsers = true)
         {
